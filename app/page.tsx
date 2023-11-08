@@ -3,7 +3,7 @@ import { marked } from "marked"
 import Image from "next/image"
 
 import Form from "./components/Form"
-import Link from "next/link"
+
 import IconHorizontal from "./components/IconHorizontal"
 import Ipad from "./components/Ipad"
 export default async function Home() {
@@ -15,7 +15,7 @@ export default async function Home() {
 
   <div className="flex lg:flex-row flex-col grow items-center justify-between pt-10 pr-10 pl-10">
 <div className='text-center '>
-    <h1 className=" font-roboto text-black text-5xl  bg-clip-text font-bold">Hi, I'm Pouria </h1>
+    <h1 className=" font-roboto text-black text-5xl  bg-clip-text font-bold">Hi, I am Pouria </h1>
   <h2 className="pt-2 text-dark">Full stack web Developer</h2>
   </div>
 
