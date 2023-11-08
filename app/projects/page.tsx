@@ -24,8 +24,10 @@ export default async function Project() {
 
 
 
-  <h1 className='text-dark font-roboto text-5xl bg-clip-text text-center pb-10 pt-10'>My projects</h1>
+ 
   <div className="mx-auto">
+     <h1 className='text-dark font-roboto text-5xl bg-clip-text text-center pb-10 pt-10'>My projects</h1>
+     
     <Gallery html1={html} ht2={ht2} ht3={ht3} />
   </div>
   
