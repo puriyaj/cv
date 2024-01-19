@@ -32,6 +32,7 @@ export default function RootLayout({
        
         <div className="grow m-0">
 <main >{children}</main>
+
 </div>
    
 

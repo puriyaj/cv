@@ -6,27 +6,19 @@ const NavBar = () => {
 
 
 
-
-   
-    
-
-        <Navbar fluid rounded className='bg-creme'>
-          <Navbar.Brand href="/">
-           
-            <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Portfolio</span>
-          </Navbar.Brand>
-          <div className="flex md:order-2">
-            <Navbar.Toggle />
-          </div>
-          <Navbar.Collapse>
-            <Link href="/" >
-              Home
-            </Link>
-            <Link href="/projects">Project</Link>
-            <Link href="/abilities">Skills</Link>
-            <Link href="https://github.com/puriyaj/cv/blob/main/cv.pdf">Resume</Link>
-          </Navbar.Collapse>
-        </Navbar>
+  <nav className=''>
+     <div className='flex justify-center  bg-gray-900 fixed  inset-x-0 top-3 '>
+      <ul className='flex  gap-5  rounded-full bg-gray-950 w-fit p-4 text-gray-600 font-medium'>
+      <li className='hover:text-gray-100'>Home</li>
+      <li className='hover:text-gray-100'>About</li>
+      <li className='hover:text-gray-100'>Projects</li>
+      <li className='hover:text-gray-100'>Skills</li>
+      <li className='hover:text-gray-100'>Experience</li>
+      <li className='hover:text-gray-100'>Contact</li>
+    </ul>
+     </div>
+  </nav>
+  
       );
     }
     

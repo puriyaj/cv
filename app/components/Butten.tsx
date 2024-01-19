@@ -1,5 +1,7 @@
 import Link from "next/link"
-
+import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
+import { HiDownload } from 'react-icons/hi';
+import { FaGithub, FaWhatsapp, FaInstagram } from 'react-icons/fa';
 const Buttens =()=>{
   return(
     <div className='flex flex-auto flex-row py-20 justify-center gap-4 '>
