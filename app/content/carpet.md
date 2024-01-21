@@ -1,1 +1,1 @@
-Eleishe is a website for selling carpets. I worked on the frontend of this project and provided some assistance with authentication. It was created using ***HTML*** and ***CSS***.
+Eleishe is a website that sells carpets. I worked on both the design and functionality of the site, handling both the front and back ends. I also helped with making sure user accounts are secure. This project was my last one at Tuv International.
