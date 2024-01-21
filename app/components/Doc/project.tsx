@@ -14,7 +14,7 @@ const Projects = () => {
    <>
     <motion.section ref={ref} style={{scale:scrollYProgress,opacity:scrollYProgress}} id="project" className="flex flex-col justify-center p-5 items-center">
 
-      <p  className="font-roboto text-2xl text-justify pt-11 pb-5" >My Projects And Certificates</p>
+      <p  className="font-roboto text-2xl text-justify pt-11 pb-5 text-gray-900 dark:text-gray-50" >My Projects And Certificates</p>
        <Project />
     </motion.section>
     

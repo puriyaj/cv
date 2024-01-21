@@ -3,16 +3,15 @@ import About from "./components/Doc/About"
 import Con from "./components/Doc/contact"
 import Skill from "./components/Doc/skills"
 import Projects from "./components/Doc/project"
-import Ex from "./components/Doc/experience"
-import NavBar from "./components/NavBar"
+import Ex from "./components/timeLines"
 
 
 
 export default function Homes() {
-  
+
   return (<>
   
-<div className="flex flex-col  bg-slate-900 pb-10 p-5 ">
+<div className="flex flex-col  pb-10 p-5 ">
 
 <Me/>
 <About/>

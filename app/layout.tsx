@@ -3,7 +3,8 @@ import { roboto,edu} from './fonts'
 import './globals.css'
 import Footer from './components/Footer'
 import NavBar from './components/NavBar'
-import Gallery from './components/Gallery'
+import Dark from './components/dark'
+import ThemeContextProvider from './context/theme'
 
 
 
@@ -19,9 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`!scroll-smooth ${roboto.variable,edu.variable}`}>
-
-      <body className='flex flex-col min-h-screen bg-ethereal bg-fixed'>
-
+     
+      <body className='bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90'>
+      <div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263]"></div>
+        <div className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#676394]"></div>
         <header >
          <NavBar/>
         </header>
@@ -29,7 +31,7 @@ export default function RootLayout({
  
         
         
-       
+       <ThemeContextProvider>
         <div className="grow m-0">
 <main >{children}</main>
 
@@ -38,8 +40,8 @@ export default function RootLayout({
 
         
   <Footer/>
-         
-
+  <Dark/> 
+</ThemeContextProvider>
       </body>
 
     </html>

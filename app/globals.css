@@ -4,10 +4,12 @@
 
 
 
-body {
-background-color: black;
-color: white;
-}
+
 html {
   scroll-behavior: smooth;
+   --line-Color:rgba(255,255,255,0.2);
+}
+
+html.dark {
+   --line-Color:rgba(255,255,255,0.2);
 }

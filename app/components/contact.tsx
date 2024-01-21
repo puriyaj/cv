@@ -1,14 +1,19 @@
+'use client'
+import { sendEmail } from "../pages/api/contact"
+
 const Contact =()=>{
   return(<>
 
 <div className="flex items-center justify-center p-12 w-full">
 
   <div className="mx-auto w-full max-w-[550px]">
-    <form action="https://formbold.com/s/FORM_ID" method="POST">
+    <form action={async (formData) =>{
+      await sendEmail(formData)
+    }} method="POST">
       <div className="mb-5">
         <label
-          for="name"
-          className="mb-3 block text-base font-medium text-[#07074D]"
+          htmlFor="name"
+          className="mb-3 block text-base font-medium text-slate-700 dark:text-slate-50"
         >
           Full Name
         </label>
@@ -22,8 +27,8 @@ const Contact =()=>{
       </div>
       <div className="mb-5">
         <label
-          for="email"
-          className="mb-3 block text-base font-medium text-[#07074D]"
+          htmlFor="email"
+          className="mb-3 block text-base font-medium text-slate-700 dark:text-slate-50"
         >
           Email Address
         </label>
@@ -37,8 +42,8 @@ const Contact =()=>{
       </div>
       <div className="mb-5">
         <label
-          for="subject"
-          className="mb-3 block text-base font-medium text-[#07074D]"
+          htmlFor="subject"
+          className="mb-3 block text-base font-medium text-slate-700 dark:text-slate-50"
         >
           Subject
         </label>
@@ -52,8 +57,8 @@ const Contact =()=>{
       </div>
       <div className="mb-5">
         <label
-          for="message"
-          className="mb-3 block text-base font-medium text-[#07074D]"
+          htmlFor="message"
+          className="mb-3 block text-base font-medium text-slate-700 dark:text-slate-50"
         >
           Message
         </label>
@@ -67,7 +72,7 @@ const Contact =()=>{
       </div>
       <div>
         <button
-          className="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none"
+          className="rounded-lg outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 bg-slate-950 p-5 text-xl text-slate-50"
         >
           Submit
         </button>
