@@ -3,7 +3,7 @@
 import Image from "next/image"
 const IconHorizontal = () => {
   return( <>
-  <div className="grid grid-cols-4 gap-7 ">
+  <div className="grid md:grid-cols-4 grid-cols-3 gap-7 ">
   <div className="rounded-lg border-2 flex flex-col justify-center items-center">
       <Image className="rounded-full p-5" src="/images/icons/javascript.webp" alt="java script" width={100} height={100}/>
       <h1 className="font-roboto text-2xl text-justify text-gray-700 dark:text-gray-50">Java script</h1>
