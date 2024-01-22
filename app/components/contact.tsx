@@ -1,7 +1,9 @@
 'use client'
 import { sendEmail } from "../pages/api/contact"
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Contact =()=>{
+  const notify = () => toast.success("The email has been successfully sent ")
   return(<>
 
 <div className="flex items-center justify-center p-12 w-full">
@@ -72,10 +74,20 @@ const Contact =()=>{
       </div>
       <div>
         <button
-          className="rounded-lg outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 bg-slate-950 p-5 text-xl text-slate-50"
+          className="rounded-lg outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 bg-slate-950 p-5 text-xl text-slate-50" onClick={notify}
         >
           Submit
         </button>
+        <ToastContainer position="top-center"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="colored"/>
       </div>
     </form>
   </div>
