@@ -8,8 +8,8 @@ const NavBar = () => {
 
 
   <nav>
-     <div className='flex justify-center   fixed inset-x-0 inset-z-9999 top-3 p-5 z-[999]'>
-      <ul className='flex  gap-5  rounded-full bg-gray-100 dark:bg-gray-950 w-fit p-4 text-gray-600 font-medium bg-opacity-80 backdrop-blur-[0.5rem] shadow-2xl' >
+     <div className='flex justify-center  top-0 absolute inset-x-0 inset-z-9999 sm:top-3  z-[999] sm:fixed'>
+      <ul className='flex  gap-5  sm:rounded-full bg-gray-100 dark:bg-gray-950 sm:w-min p-4 text-gray-600 font-medium bg-opacity-80 backdrop-blur-[0.5rem] shadow-2xl w-full' >
       <li className='dark:hover:text-gray-100 hover:text-gray-950'><a href="#Up">Home</a></li>
       <li className='dark:hover:text-gray-100 hover:text-gray-950'><a href="#About">About</a></li>
       <li className='dark:hover:text-gray-100 hover:text-gray-950'><a href="#project">Projects</a></li>
