@@ -6,7 +6,7 @@ const Data = [
   {
     img: "/images/foodi.png",
     name: "FooDi",
-    des: "I'm revamped pizza ordering using Three.js for immersive visuals, a microservices architecture for efficiency, and a 3D module with GraphQL in TypeScript for real-time customization. Enjoy a seamless experience with cutting-edge technology at your fingertips!",
+    des: "I've revamped pizza ordering using Three.js for immersive visuals, a microservices architecture for efficiency, and a 3D module with GraphQL in TypeScript for real-time customization. Enjoy a seamless experience with cutting-edge technology at your fingertips!",
     tec:'Nest',
     tec2:'React',
     tec3: 'GraphQL',
@@ -17,7 +17,7 @@ const Data = [
   {
     img: "/images/travel.png",
     name: "WanderVista",
-    des: "I'm infused dynamic animation with Framer Motion and React for an engaging and user-friendly travel experience. Explore destinations, seamlessly navigate, and book your next adventure with ease, all thanks to the captivating animations and responsive design that our website offers. Start your journey with us today!",
+    des: "I've infused dynamic animation with Framer Motion and React for an engaging and user-friendly travel experience. Explore destinations, seamlessly navigate, and book your next adventure with ease, all thanks to the captivating animations and responsive design that our website offers. Start your journey with us today!",
     tec:'Frontend',
     tec2:'React',
     tec3: 'Framer Motion',
@@ -49,7 +49,7 @@ const Data = [
   {
     img: "/images/blog.png",
     name: "MyBlog",
-    des: "I'M transformed the blogging experience. With user authentication, live post updates, and a database-connected comment system, our platform offers a dynamic and secure space for engaging content and discussions. Stay informed with real-time posts and share your thoughts seamlessly. Join us on [Your Blog] for a personalized and interactive blogging journey!",
+    des: "I've transformed the blogging experience. With user authentication, live post updates, and a database-connected comment system, our platform offers a dynamic and secure space for engaging content and discussions. Stay informed with real-time posts and share your thoughts seamlessly. Join us on [Your Blog] for a personalized and interactive blogging journey!",
     tec:'Prisma',
     tec2:'React',
     tec3: 'Next Auth',
