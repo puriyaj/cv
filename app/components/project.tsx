@@ -66,7 +66,7 @@ const Data = [
     tec3: 'Tailwind',
     tec4: 'MongoDB',
     url: '',
-    url2: '"https://github.com/puriyaj/React_Fullstack-Game-Reviews-"',
+    url2: "https://github.com/puriyaj/React_Fullstack-Game-Reviews-",
   },
   {
     img: "/images/vet-one.jpg",
