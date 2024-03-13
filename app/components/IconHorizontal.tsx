@@ -55,13 +55,13 @@ const IconHorizontal = () => {
   <div className="rounded-lg border-2 flex flex-col justify-center items-center">
       <Image className="rounded-full p-5" src="/images/icons/next.png" alt="java script" width={100} height={100}/>
       <h1 className="font-roboto text-2xl text-justify text-gray-700 dark:text-gray-50">Next JS</h1>
-      <p className="font-roboto text-sm text-justify p-2 text-gray-700 dark:text-gray-50">Programming Language</p>
+      <p className="font-roboto text-sm text-justify p-2 text-gray-700 dark:text-gray-50">CSS Framework</p>
   </div>
 
   <div className="rounded-lg border-2 flex flex-col justify-center items-center">
       <Image className="rounded-full p-5" src="/images/icons/mongo.webp" alt="java script" width={100} height={100}/>
       <h1 className="font-roboto text-2xl text-justify text-gray-700 dark:text-gray-50">Mongo DB</h1>
-      <p className="font-roboto text-sm text-justify p-2 text-gray-700 dark:text-gray-50">Programming Language</p>
+      <p className="font-roboto text-sm text-justify p-2 text-gray-700 dark:text-gray-50">Query Language</p>
   </div>
 
   <div className="rounded-lg border-2 flex flex-col justify-center items-center">
@@ -79,13 +79,13 @@ const IconHorizontal = () => {
   <div className="rounded-lg border-2 flex flex-col justify-center items-center">
       <Image className="rounded-full p-5" src="/images/icons/express.png" alt="express" width={100} height={100}/>
       <h1 className="font-roboto text-2xl text-justify text-gray-700 dark:text-gray-50">Express JS</h1>
-      <p className="font-roboto text-sm text-justify p-2 text-gray-700 dark:text-gray-50">Programming Language</p>
+      <p className="font-roboto text-sm text-justify p-2 text-gray-700 dark:text-gray-50">Framework</p>
   </div>
 
   <div className="rounded-lg border-2 flex flex-col justify-center items-center">
       <Image className="rounded-full p-5" src="/images/icons/postman.png" alt="express" width={100} height={100}/>
       <h1 className="font-roboto text-2xl text-justify text-gray-700 dark:text-gray-50">Postman</h1>
-      <p className="font-roboto text-sm text-justify p-2 text-gray-700 dark:text-gray-50">Programming Language</p>
+      <p className="font-roboto text-sm text-justify p-2 text-gray-700 dark:text-gray-50">Software</p>
   </div>
 
   <div className="rounded-lg border-2 flex flex-col justify-center items-center">
@@ -108,8 +108,28 @@ const IconHorizontal = () => {
 
   <div className="rounded-lg border-2 flex flex-col justify-center items-center">
       <Image className="rounded-full p-5" src="/images/icons/typescript.png" alt="express" width={100} height={100}/>
-      <h1 className="font-roboto text-2xl text-justify text-gray-700 dark:text-gray-50">Type script<script></script></h1>
+      <h1 className="font-roboto text-2xl text-justify text-gray-700 dark:text-gray-50">Type script</h1>
       <p className="font-roboto text-sm text-justify p-2 text-gray-700 dark:text-gray-50">Programming Language</p>
+  </div>
+  <div className="rounded-lg border-2 flex flex-col justify-center items-center">
+      <Image className="rounded-full p-5" src="/images/icons/graph.png" alt="express" width={100} height={100}/>
+      <h1 className="font-roboto text-2xl text-justify text-gray-700 dark:text-gray-50">GtaphQL</h1>
+      <p className="font-roboto text-sm text-justify p-2 text-gray-700 dark:text-gray-50">Framework</p>
+  </div>
+  <div className="rounded-lg border-2 flex flex-col justify-center items-center">
+      <Image className="rounded-full p-5" src="/images/icons/three.png" alt="express" width={100} height={100}/>
+      <h1 className="font-roboto text-2xl text-justify text-gray-700 dark:text-gray-50">Three.js</h1>
+      <p className="font-roboto text-sm text-justify p-2 text-gray-700 dark:text-gray-50">Framework</p>
+  </div>
+  <div className="rounded-lg border-2 flex flex-col justify-center items-center">
+      <Image className="rounded-full p-5" src="/images/icons/prisma.png" alt="express" width={100} height={100}/>
+      <h1 className="font-roboto text-2xl text-justify text-gray-700 dark:text-gray-50">Prisma</h1>
+      <p className="font-roboto text-sm text-justify p-2 text-gray-700 dark:text-gray-50">Framework</p>
+  </div>
+  <div className="rounded-lg border-2 flex flex-col justify-center items-center">
+      <Image className="rounded-full p-5" src="/images/icons/aws-icon.png" alt="express" width={100} height={100}/>
+      <h1 className="font-roboto text-2xl text-justify text-gray-700 dark:text-gray-50">AWS</h1>
+      <p className="font-roboto text-sm text-justify p-2 text-gray-700 dark:text-gray-50">Cloud Platform</p>
   </div>
   </div>
  

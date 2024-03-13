@@ -54,8 +54,24 @@ const Icons = () => {
     </div>    <div className="flex flex-col items-center">
     <Icon className="h-10 w-10" icon="arcticons:git" />
       <p>Git</p>
-    </div>  
-          
+    </div>   <div className="flex flex-col items-center">
+    <Icon className="h-10 w-10" icon="logos:graphql" />
+      <p>GraphQL</p>
+    </div>   <div className="flex flex-col items-center">
+    <Icon className="h-10 w-10" icon="logos:gitlab" />
+      <p>GitLab</p>
+    </div>    <div className="flex flex-col items-center">
+    <Icon className="h-10 w-10" icon="logos:threejs" />
+      <p>Three.js</p>
+    </div>   <div className="flex flex-col items-center">
+    <Icon className="h-10 w-10" icon="simple-icons:prisma" />
+      <p>Prisma</p>
+    </div>   <div className="flex flex-col items-center">
+    <Icon className="h-10 w-10" icon="logos:aws" />
+      <p>AWS</p>
+    </div>
+
+ 
    
         
        
