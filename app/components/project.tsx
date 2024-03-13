@@ -25,7 +25,7 @@ const Data = [
     url2: 'https://github.com/puriyaj/Travel-app',
   },
   {
-    img: "/images/kaufmann.png",
+    img: "/images/kauf.png",
     name: "Kaufmann",
     des: "Kaufmann platform boasts three dashboards tailored for buyers, sellers, and administrators. Buyers enjoy a seamless shopping experience, sellers efficiently manage products, and admins have control with roll-based functionality.(Currently)",
     tec:'Next',
