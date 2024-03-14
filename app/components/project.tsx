@@ -60,7 +60,7 @@ const Data = [
   {
     img: "/images/indie-game.jpg",
     name: "Game-Reviews",
-    des: "the ultimate hub for gaming enthusiasts. Our platform showcases live data, prioritizing the latest author edits first. With a sleek dashboard, access real-time insights and engage effortlessly with the gaming community. Elevate your gaming experience with us and stay ahead of the curve!" ,
+    des: "The ultimate hub for gaming enthusiasts. Our platform showcases live data, prioritizing the latest author edits first. With a sleek dashboard, access real-time insights and engage effortlessly with the gaming community. Elevate your gaming experience with us and stay ahead of the curve!" ,
     tec:'strapi',
     tec2:'React',
     tec3: 'Tailwind',
