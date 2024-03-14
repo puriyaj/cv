@@ -12,12 +12,15 @@ const Projects = () => {
   })
   return(
    <>
-    <motion.section ref={ref} style={{scale:scrollYProgress,opacity:scrollYProgress}} id="project" className="flex flex-col justify-center p-5 items-center">
+    <motion.section  ref={ref} style={{scale:scrollYProgress,opacity:scrollYProgress}} id="project" className="sm:flex flex-col justify-center p-5 items-center hidden">
 
       <p  className="font-roboto text-2xl text-justify  pb-5 text-gray-900 dark:text-gray-50" >My Projects And Certificates</p>
        <Project />
     </motion.section>
-    
+    <div className="flex sm:hidden">
+       <Project />
+    </div>
+   
    </>
   )
 }
