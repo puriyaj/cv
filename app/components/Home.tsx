@@ -32,13 +32,6 @@ const Home = () => {
       "Technical University Berlin, C1 (DSH 2)",
     cardDetailedText: ["paragraph1", "paragraph2"],
     timelineContent: <div>Custom content</div>,
-  },{
-    title: "2024",
-    cardTitle: "Master",
-    cardSubtitle:
-      "Frei Universita ̈t Berlin - first semester - Computer science",
-    cardDetailedText: ["paragraph1", "paragraph2"],
-    timelineContent: <div>Custom content</div>,
   }];
 
   return (

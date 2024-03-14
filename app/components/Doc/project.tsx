@@ -8,7 +8,7 @@ const Projects = () => {
   const ref = useRef<HTMLElement>(null)
   const {scrollYProgress} = useScroll({
     target: ref,
-    offset:["0 1", "0.5 1"]
+    offset:["0 1", "0.2 1"]
   })
   return(
    <>
