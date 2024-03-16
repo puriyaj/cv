@@ -13,7 +13,7 @@ const Form=() =>{
     <a className="min-h-[44px] min-w-[44px] text-2xl rounded-full bg-gradient-to-r from-gray-950  to-gray-500 flex justify-center items-center hover:scale-110" onClick={() => window.open('https://github.com/puriyaj')}>
       <FaGithub/>
     </a>
-    <a className="min-h-[44px] min-w-[44px] text-2xl rounded-full bg-gradient-to-r from-green-950  to-green-500 flex justify-center items-center hover:scale-110" onClick={() => window.open('https://wa.me/15783701320')}>
+    <a className="min-h-[44px] min-w-[44px] text-2xl rounded-full bg-gradient-to-r from-green-950  to-green-500 flex justify-center items-center hover:scale-110" onClick={() => window.open('https://wa.me/17657935714')}>
       <FaWhatsapp/>
     </a>
     <a className="min-h-[44px] min-w-[44px] text-2xl rounded-full bg-gradient-to-r from-blue-950  to-blue-500 flex justify-center items-center hover:scale-110" onClick={() => window.open('https://linkedin.com/in/puriya-jangjooymehrangiz')}>
