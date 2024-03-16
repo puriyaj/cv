@@ -32,11 +32,11 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Sakht Sanat Kaveh Consulting Engineers Company Computer',
+    title: 'CodeCrafters SAS',
     location: 'Iran, Tehran',
-    description: '○ Assembling Pcs and support Linux systems for servers and normal users building simple websites with css, html, jQuery with friendly user interface Learning C++ to Kids and adults and building simple games.',
+    description: '- Assisted senior developers in frontend development using HTML, CSS, and JavaScript.Contributed ideas in team meetings to improve project workflows.Enhanced coding skills by learning and using React.js. Collaborated with backend developers for seamless integration. Conducted manual testing and bug fixes for smooth user experiences.',
     icon: React.createElement(CgWorkAlt),
-    date: '10/2017–06/2019',
+    date: '05/2020–06/2021',
   },
   {
     title: 'Bachelor of science',
@@ -47,9 +47,9 @@ export const experiencesData = [
   },
 
   {
-    title: 'TuV INTERNATIONALWebDeveloper',
-    location: 'Iran, Tehran (Remote)',
-    description: '○ Designed and developed E-Commers Web Pages for Companies with one year support. Support services for websites, specializing in thorough debugging to enhance their performance. Building Databases with sql and nosql (with expertise in SQL for structured data and NoSQL for flexible and scalable data storage).Development of APIs for large-scale projects in Json format.',
+    title: 'EuroTech Solutions Ltd',
+    location: 'Armenia - Yerevan',
+    description: '- Led frontend development using React.js, ensuring efficient code. Worked closely with clients to create scalable user interfaces. Developed custom React components, optimizing performance. Integrated backend APIs for seamless communication. Implemented automated testing with Jest and React Testing Library. Deployed CI/CD pipelines with GitLab CI for rapid iterations.',
     icon: React.createElement(CgWorkAlt),
     date: '07/2019–07/2021',
   },
@@ -60,4 +60,12 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: '12-2023',
   },
+  {
+    title: 'ByteWorks Technologies',
+    location: 'Armenia - Yerevan',
+    description: '- Developed responsive interfaces using HTML, CSS, and JavaScript frameworks, specializing in React.js. Worked closely with the design team for consistent design implementation across browsers and devices. Conducted automated testing with Jest.js for code reliability. Integrated RESTful APIs and GraphQL endpoints for efficient data management. Utilized Git for version control and participated in code reviews to maintain coding standards.',
+    icon: React.createElement(CgWorkAlt),
+    date: '07/2022–01/2024',
+  },
+  
 ] as const;
