@@ -1,29 +1,50 @@
-import Image from "next/image"
-import Form from "../Form"
+import Image from "next/image";
+import Form from "../Form";
 
-
-
-const Me = async ()=> {
-  
-  return(
+const Me = async () => {
+  return (
     <>
-    
+      <div className=" [font-family:'Inter-Regular',Helvetica] font-normal text-white text-[36px] text-center tracking-[12.60px] leading-[normal]">
+        Hi, I‘m Pouria
+        <br />
+        Frontend Developer
+      </div>
 
+      <div
+        id="Up"
+        className="relative   pt-10 rounded-lg flex flex-col items-center  "
+      >
+        <div className="flex relative gap-10 ">
+          <div className="md:flex flex-col gap-10 pt-10 hidden">
+            <h1 className="text-2xl text-bold">&lt;Designer /&gt;</h1>
 
-<div id="Up" className="   pt-10 rounded-lg flex flex-col items-center  ">
+            <p className="text-start w-[10rem]">
+            designer specialising in U!| design and design systems.
+            </p>
+          </div>
+          <Image
+            src="/images/me.PNG"
+            width="500"
+            height="400"
+            className=" pb-1 pt-10 "
+            alt="profile photo"
+            priority
+          />
 
- <Image src="/images/pro1.jpg" width="400" height="400" className="rounded-full pb-1 pt-10 " alt="profile photo" priority/>
- <div className='text-center '>
-<h1 className=" font-roboto text-gray-900 dark:text-gray-50 text-5xl  bg-clip-text font-bold ">Hi, I am Pouria </h1>
-<h2 className="pt-2 text-gray-700 dark:text-gray-50 text-lg">A Full stack web Developer </h2>
-</div>
+          <div className="md:flex flex-col gap-10 hidden">
+            <h1 className="flex justify-center text-2xl text-bold pt-10">
+              &lt;Coder /&gt;
+            </h1>
 
+            <p className="text-end w-[10rem]">
+              Front end developer who writes clean, elegant and efficient code.
+            </p>
+          </div>
+        </div>
 
-
-   <Form /> 
-   </div>
-
+        <Form />
+      </div>
     </>
-  )
-}
-export default Me
+  );
+};
+export default Me;
