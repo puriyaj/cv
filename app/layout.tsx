@@ -12,6 +12,9 @@ import { motion } from "framer-motion";
 //   description: "My Portfolio",
 // };
 
+
+// kick off the polyfill!
+
 export default function RootLayout({
   children,
 }: {

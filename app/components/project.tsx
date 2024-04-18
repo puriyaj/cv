@@ -2,7 +2,7 @@ import { useMotionValue, useSpring, useTransform, motion } from "framer-motion";
 import Image from "next/image";
 import { CgWebsite } from "react-icons/cg";
 import { FaGithub } from "react-icons/fa";
-
+import { Tilt } from 'react-next-tilt';
 const Data = [
   {
     img: "/images/foodi.png",
@@ -100,11 +100,13 @@ const Project = () => {
         {Data.map((item, index) => {
           return (
             <>
+           
               <div
                 key={index}
                 className="flex flex-col w-[25rem] rounded-lg  p-3 shadow-2xl bg-slate-100 dark:bg-slate-700 justify-center items-center"
               >
-                <Image
+                <Tilt>
+                  <Image
                   src={item.img}
                   width={300}
                   height={300}
@@ -112,6 +114,8 @@ const Project = () => {
                   className="rounded-lg "
                   priority
                 />
+                </Tilt>
+                
                 <h1 className="text-xl p-3"> {item.name} </h1>
                 <p className="dark:text-gray-300 text-gray-700">{item.des}</p>
                 <ul className="flex flex-row gap-2 flex-wrap pt-3 pb-3">
@@ -149,6 +153,7 @@ const Project = () => {
                   </a>
                 </div>
               </div>
+           
             </>
           );
         })}

@@ -9,16 +9,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'photo': 'url("../public/images/3.jpg")',
      
-        
-      },
-      
-      fontFamily:{
-        roboto:['var(--font-roboto)','sans-serif'],
-        edu:['var(--font-edu)','sans-serif']
-      }
     },
   },
   plugins: [
