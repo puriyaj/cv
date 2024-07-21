@@ -7,7 +7,7 @@ const Me = async () => {
       <div className=" [font-family:'Inter-Regular',Helvetica] font-normal text-white text-[36px] text-center tracking-[12.60px] leading-[normal]">
         Hi, I‘m Pouria
         <br />
-        Frontend Developer
+        Software  Engineer | ML Engineer
       </div>
 
       <div
@@ -37,7 +37,7 @@ const Me = async () => {
             </h1>
 
             <p className="text-end w-[10rem]">
-              Front end developer who writes clean, elegant and efficient code.
+              Software developer who writes clean, elegant and efficient code.
             </p>
           </div>
         </div>
