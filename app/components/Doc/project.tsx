@@ -15,9 +15,9 @@ const Projects = () => {
         ref={ref}
         style={{ scale: scrollYProgress, opacity: scrollYProgress }}
         id="project"
-        className="md:flex flex-col justify-center p-5 items-center hidden"
+        className="md:flex flex-col justify-center p-5 items-center hidden "
       >
-        <p className="font-roboto text-2xl text-justify  pb-10 text-gray-900 dark:text-gray-50 ">
+        <p className="font-roboto text-2xl text-justify  py-10 text-gray-900 dark:text-gray-50 ">
           My Projects And Certificates
         </p>
         <Project />

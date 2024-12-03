@@ -5,6 +5,27 @@ import { FaGithub } from "react-icons/fa";
 import { Tilt } from 'react-next-tilt';
 const Data = [
   {
+    img: "/images/venmate.png",
+    name: "Venmate",
+    des: "A web-based customer success platform, Venerate, designed to enhance client management and engagement. With AI integration, it provides actionable insights, automates workflows, and optimizes customer success strategies, similar to Salesforce. Features include client tracking, real-time analytics, and personalized recommendations for improved outcomes",
+    tec: "React",
+    tec2: "React Query",
+    tec3: "Tailwind",
+    tec4: "typescript",
+    url: "https://www.venmate.net",
+    url2: ""
+  },
+  {
+    img: "/images/dreamSkin.png",
+    name: "Dream Skin",
+    des: "An e-commerce site for a laser shop with a sleek interface and TailAdmin Dashboard for managing inventory, sales, and orders. Features include a product catalog, secure checkout, and real-time analytics.",
+    tec: "NextJS",
+    tec2: "Prisma",
+    tec3: "Tailwind",
+    url: "",
+    url2: "https://github.com/puriyaj/Dream-skin.git"
+  },
+  {
     img: "/images/foodi.png",
     name: "FooDi",
     des: "I've revamped pizza ordering using Three.js for immersive visuals, a microservices architecture for efficiency, and a 3D module with GraphQL in TypeScript for real-time customization. Enjoy a seamless experience with cutting-edge technology at your fingertips!",
@@ -144,7 +165,7 @@ const Project = () => {
                   width={300}
                   height={300}
                   alt="asb website"
-                  className="rounded-lg "
+                  className="rounded-lg max-h-[10rem]"
                   priority
                 />
                 </Tilt>
