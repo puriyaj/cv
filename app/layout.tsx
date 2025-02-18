@@ -16,7 +16,7 @@ import { motion } from "framer-motion";
 // kick off the polyfill!
 
 export default function RootLayout({
-  children,
+  children ,
 }: {
   children: React.ReactNode;
 }) {
